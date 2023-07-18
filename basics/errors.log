@@ -1,0 +1,2 @@
+invalid literal for int() with base 10: 'dfjhasgd'
+<frame at 0x1001d8940, file '/Users/tima/python30_ev/basics/try_except.py', line 85, code <module>>
