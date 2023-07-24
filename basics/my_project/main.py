@@ -44,3 +44,5 @@ print(database)
 res = login(database, current_user, 'admin', 'wrongpassword')
 print(res)
 print(current_user)
+
+# TODO: logout (выход с сайта), создать интерфейс для вызова функций, написать тест для logout
