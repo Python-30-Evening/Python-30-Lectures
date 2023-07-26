@@ -182,6 +182,7 @@ hello world
 Вызов функции first прошёл успешно 
 """
 
+
 def call_function(func):
     def wrapper(*args, **kwargs):
         print(f'Вызываю функцию {func.__name__}')
@@ -194,5 +195,6 @@ def call_function(func):
 def first():
     print("hello world")
     return "hello world"
+
 
 first()
