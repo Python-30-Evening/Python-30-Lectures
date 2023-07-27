@@ -130,3 +130,44 @@ any([0, 0, 0])  # False
 
 # func()
 
+
+# Итерируемые объекты - объекты, к которым применим цикл for
+# list, str, dict, set, tuple
+
+# for i in map(lambda x: x * 2, range(10)):
+#     ...
+
+# nums = [1, 2, 3]
+# iter_nums = iter(nums)
+# while True:
+#     try:
+#         print(next(iter_nums))
+#     except StopIteration:
+#         break
+
+
+# def gen():
+#     yield 1
+#     yield 2
+#     yield 3
+
+# a = gen()
+# next(a)  # 1
+# next(a)  # 2
+# next(a)  # 3
+
+
+# eval()
+# exec()
+
+code = "print(10)"
+eval(code)
+
+
+big_code = """
+b = 10
+for i in range(b):
+    print(i ** i)
+"""
+
+exec(big_code)
