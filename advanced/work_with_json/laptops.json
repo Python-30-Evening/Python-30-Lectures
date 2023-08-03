@@ -1,0 +1,20 @@
+[
+    {
+        "title": "ASUS",
+        "price": 100000,
+        "ssd": null,
+        "hdd": "Samsung"
+    },
+    {
+        "title": "Acer",
+        "price": 1034340,
+        "ssd": "Toshiba",
+        "hdd": "LG"
+    },
+    {
+        "title": "HP",
+        "price": 1003232,
+        "ssd": null,
+        "hdd": "Samsung"
+    }
+]
